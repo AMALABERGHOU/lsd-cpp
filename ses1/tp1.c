@@ -49,7 +49,7 @@ int main(){
     printBits(abs(N)); // since printBits() takes an unsigned int we use the absolute value of N
     printf("\n");
     int i;
-    printf("which bit do u want? Give a number from 1 to 8:  ");
+    printf("Give a number from 1 to 8:  ");
     scanf("%d",&i);
     print_nth_bit(abs(N),i);
     return 0;
