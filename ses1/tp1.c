@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 #include"tp1.h"
+// ex1
 int msbSet(int N){// since we use the 8 bit representation N must be <=127 to keep the 8th bit for the sign of the num
     int msb;
 
@@ -13,6 +14,7 @@ int msbSet(int N){// since we use the 8 bit representation N must be <=127 to ke
         return 0;
     }
 }
+// ex2
 void printBits(unsigned n)
 {
     // we got 32bits
@@ -27,6 +29,7 @@ void printBits(unsigned n)
     }
     return ;
 }
+// ex4
 void print_nth_bit(int num, int i){
     int a=1<<totalBits-i;
     // printBits(num&a);
